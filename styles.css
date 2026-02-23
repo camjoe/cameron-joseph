@@ -7,8 +7,8 @@
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     line-height: 1.6;
-    color: #454545;
-    background-color: #FFF5F5;
+    color: #333;
+    background-color: #f4f4f4;
 }
 
 .container {
@@ -50,7 +50,7 @@ body {
 }
 
 .nav-links a:hover {
-    color: #F0660D;
+    color: #0066cc;
 }
 
 /* Hero Section */
@@ -72,7 +72,7 @@ body {
 
 /* Sections */
 .section {
-    background-color: #FFF5F5;
+    background-color: white;
     padding: 4rem 3rem;
     margin: 2.5rem 0;
     border-radius: 8px;
@@ -81,9 +81,9 @@ body {
 
 .section h2 {
     margin-bottom: 1.5rem;
-    color: #454545;
+    color: #333;
     font-size: 2rem;
-    border-bottom: 3px solid #F0660D;
+    border-bottom: 3px solid #0066cc;
     padding-bottom: 0.75rem;
 }
 
@@ -91,23 +91,23 @@ body {
     margin-bottom: 1.2rem;
     line-height: 1.8;
     font-size: 1rem;
-    color: #454545;
+    color: #555;
     letter-spacing: 0.3px;
 }
 
 .resume-content h3 {
     font-size: 1.3rem;
-    color: #F0660D;
+    color: #0066cc;
     margin-top: 1.5rem;
     margin-bottom: 1rem;
-    border-bottom: 2px solid #F0660D;
+    border-bottom: 2px solid #0066cc;
     padding-bottom: 0.5rem;
 }
 
 .job-entry {
     margin-bottom: 2rem;
     padding-bottom: 1.5rem;
-    border-left: 4px solid #F0660D;
+    border-left: 4px solid #0066cc;
     padding-left: 1.5rem;
 }
 
@@ -120,19 +120,19 @@ body {
 
 .job-header h4 {
     font-size: 1.1rem;
-    color: #454545;
+    color: #333;
     margin: 0;
 }
 
 .job-date {
     font-size: 0.9rem;
-    color: #9A3B12;
+    color: #777;
     font-style: italic;
 }
 
 .job-company {
     font-size: 0.95rem;
-    color: #454545;
+    color: #666;
     margin-bottom: 0.8rem;
     font-weight: 500;
 }
@@ -145,7 +145,7 @@ body {
 .job-duties li {
     margin-bottom: 0.6rem;
     line-height: 1.7;
-    color: #454545;
+    color: #555;
 }
 
 .skills-container {
@@ -156,8 +156,8 @@ body {
 }
 
 .skill-tag {
-    background-color: #F0660D;
-    color: #FFF5F5;
+    background-color: #0066cc;
+    color: white;
     padding: 0.5rem 1rem;
     border-radius: 20px;
     font-size: 0.9rem;
@@ -170,19 +170,19 @@ body {
 
 .skills-level {
     font-size: 1.1rem;
-    color: #454545;
+    color: #333;
     margin-bottom: 0.8rem;
     font-weight: 600;
     text-transform: uppercase;
     letter-spacing: 0.5px;
-    border-left: 4px solid #F0660D;
+    border-left: 4px solid #0066cc;
     padding-left: 0.8rem;
 }
 
 .additional-job {
     margin-bottom: 1.5rem;
     padding-bottom: 1.5rem;
-    border-bottom: 1px solid #E0926B;
+    border-bottom: 1px solid #e0e0e0;
 }
 
 .additional-job:last-child {
@@ -198,20 +198,20 @@ body {
 
 .additional-job-header h4 {
     font-size: 1rem;
-    color: #454545;
+    color: #333;
     margin: 0;
 }
 
 .additional-job-company {
     font-size: 0.9rem;
-    color: #454545;
+    color: #666;
     margin-bottom: 0.3rem;
     font-weight: 500;
 }
 
 .additional-job-details {
     font-size: 0.9rem;
-    color: #9A3B12;
+    color: #777;
     margin: 0;
     font-style: italic;
 }
@@ -244,7 +244,7 @@ footer {
 .footer-section h3 {
     font-size: 1rem;
     margin-bottom: 0.5rem;
-    color: #F0660D;
+    color: #0066cc;
 }
 
 .footer-section p {
@@ -254,7 +254,7 @@ footer {
 }
 
 .footer-section a {
-    color: #F0660D;
+    color: #0066cc;
     text-decoration: none;
     font-size: 0.85rem;
     margin-right: 1rem;
@@ -273,7 +273,7 @@ footer {
 .footer-divider {
     width: 1px;
     height: 60px;
-    background-color: #9A3B12;
+    background-color: #555;
 }
 
 body {
