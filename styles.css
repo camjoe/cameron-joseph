@@ -7,8 +7,8 @@
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     line-height: 1.6;
-    color: #FFF5F5;
-    background-color: #454545;
+    color: #454545;
+    background-color: #FFF5F5;
 }
 
 .container {
@@ -19,7 +19,7 @@ body {
 
 /* Navigation */
 .navbar {
-    background-color: #5A5A5A;
+    background-color: #454545;
     color: #FFF5F5;
     padding: 1rem 0;
     position: sticky;
@@ -56,7 +56,7 @@ body {
 /* Hero Section */
 .hero {
     background: linear-gradient(135deg, #E0926B 0%, #F0660D 100%);
-    color: #454545;
+    color: #FFF5F5;
     padding: 2.5rem 0;
     text-align: center;
 }
@@ -218,7 +218,7 @@ body {
 
 /* Footer */
 footer {
-    background-color: #5A5A5A;
+    background-color: #454545;
     color: #FFF5F5;
     position: fixed;
     bottom: 0;
