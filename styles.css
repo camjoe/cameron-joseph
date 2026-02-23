@@ -179,6 +179,43 @@ body {
     padding-left: 0.8rem;
 }
 
+.additional-job {
+    margin-bottom: 1.5rem;
+    padding-bottom: 1.5rem;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.additional-job:last-child {
+    border-bottom: none;
+}
+
+.additional-job-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-bottom: 0.5rem;
+}
+
+.additional-job-header h4 {
+    font-size: 1rem;
+    color: #333;
+    margin: 0;
+}
+
+.additional-job-company {
+    font-size: 0.9rem;
+    color: #666;
+    margin-bottom: 0.3rem;
+    font-weight: 500;
+}
+
+.additional-job-details {
+    font-size: 0.9rem;
+    color: #777;
+    margin: 0;
+    font-style: italic;
+}
+
 /* Footer */
 footer {
     background-color: #333;
