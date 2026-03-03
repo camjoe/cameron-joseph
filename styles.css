@@ -70,6 +70,19 @@ body {
     font-size: 1.2rem;
 }
 
+.hero-contact a {
+    color: #FFF5F5;
+    text-decoration: none;
+    border-bottom: 1px solid #FFF5F5;
+    transition: all 0.3s ease;
+}
+
+.hero-contact a:hover {
+    color: #333;
+    background-color: #FFF5F5;
+    padding: 2px 4px;
+}
+
 /* Sections */
 .section {
     background-color: white;
