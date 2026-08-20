@@ -61,9 +61,18 @@ body {
     text-align: center;
 }
 
-.hero h2 {
-    font-size: 2.5rem;
+.hero-name {
+    font-size: 3.25rem;
+    font-weight: 700;
+    line-height: 1.1;
+    margin-bottom: 0.25rem;
+}
+
+.hero-title {
+    font-size: 1.5rem;
+    font-weight: 500;
     margin-bottom: 1rem;
+    opacity: 0.95;
 }
 
 .hero p {
@@ -276,8 +285,12 @@ body {
         gap: 1rem;
     }
 
-    .hero h2 {
-        font-size: 2rem;
+    .hero-name {
+        font-size: 2.25rem;
+    }
+
+    .hero-title {
+        font-size: 1.25rem;
     }
 
 }
