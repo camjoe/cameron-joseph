@@ -57,12 +57,14 @@ body {
     border: 1.5px solid #FFF5F5;
     border-radius: 5px;
     padding: 0.3rem 0.85rem;
+    background-color: #FFF5F5;
+    color: #454545;
     transition: all 0.2s ease;
 }
 
 .nav-links .nav-resume:hover {
-    background-color: #FFF5F5;
-    color: #454545;
+    background-color: transparent;
+    color: #FFF5F5;
 }
 
 /* Hero Section */
@@ -157,16 +159,6 @@ body {
     color: #FFF5F5 !important;
 }
 
-.hero-btn-outline {
-    background-color: transparent;
-    color: #FFF5F5 !important;
-}
-
-.hero-btn-outline:hover {
-    background-color: #FFF5F5;
-    color: #333 !important;
-}
-
 .hero-contact {
     margin-top: 0.9rem;
 }
@@ -238,6 +230,12 @@ body {
     color: #333;
     margin: 0;
     font-weight: 700;
+}
+
+.company-tag {
+    font-weight: 400;
+    font-size: 0.9rem;
+    color: #777;
 }
 
 .job-date {
