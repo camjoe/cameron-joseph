@@ -14,25 +14,31 @@
                 <li><a href="#home">Home</a></li>
                 <li><a href="#about">About</a></li>
                 <li><a href="#projects">Projects</a></li>
-                <li><a href="#resume">Resume</a></li>
+                <li><a href="#resume">Experience</a></li>
                 <li><a href="#skills">Skills</a></li>
+                <li><a class="nav-resume" href="CameronJosephCV_SWEngineerII.pdf" target="_blank" rel="noopener">Resume</a></li>
             </ul>
         </div>
     </nav>
 
-    <header id="home" class="hero" style="position:relative;">
-        <div class="container" style="display:flex; align-items:center; gap:30px;">
-            <img src="profile.jpg" alt="Cameron Joseph" style="width:185px; height:185px; border-radius:50%; object-fit:cover; flex-shrink:0;">
-            <div>
+    <header id="home" class="hero">
+        <div class="container hero-inner">
+            <div class="hero-photo-col">
+                <img src="profile.jpg" alt="Cameron Joseph" class="hero-photo">
+                <div class="hero-actions">
+                    <a class="hero-btn" href="CameronJosephCV_SWEngineerII.pdf" target="_blank" rel="noopener">View Resume</a>
+                    <a class="hero-btn hero-btn-outline hero-btn-icon" href="CameronJosephCV_SWEngineerII.pdf" download title="Download resume (PDF)" aria-label="Download resume PDF">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3v12"/><path d="M7 10l5 5 5-5"/><path d="M4 21h16"/></svg>
+                    </a>
+                </div>
+            </div>
+            <div class="hero-text">
                 <h1 class="hero-name">Cameron Joseph</h1>
                 <h2 class="hero-title">Software Engineer</h2>
-
-                <p class="hero-contact" style="margin-top:10px;">
+                <p class="hero-contact">
                     <a href="mailto:cameronjoseph357@gmail.com">cameronjoseph357@gmail.com</a> &nbsp;|&nbsp; <a href="tel:+16194860963">(619) 486-0963</a> &nbsp;|&nbsp; <a href="https://www.linkedin.com/in/cameron-joseph-2a0253111/" target="_blank">linkedin.com/in/cameron-joseph</a>
                 </p>
                 <p class="hero-location">Irvine, CA &nbsp;·&nbsp; Open to roles in Southern California or Remote</p>
-            </div>
-
             </div>
         </div>
     </header>
@@ -138,21 +144,15 @@
                                 <li>Created a database migration lifecycle with Alembic, including schema versioning and schema rollback.</li>
                                 <li>Designed a unit-of-work transaction layer to handle atomic multi-write database operations.</li>
                                 <li>Built a job-runner and scheduler that utilizes a common framework to handle on average <strong>5-10 jobs</strong> running at any time.</li>
-                                <li>Built AI-assisted review workflows and custom Python CI checks (architecture and conventions enforcement, test coverage, etc.) that gate every pull request through GitHub Actions.</li>
+                                <li>Used Claude's coding agent to build AI-assisted review workflows and custom Python CI checks (architecture and conventions enforcement, test coverage, etc.) that gate every pull request through GitHub Actions.</li>
                             </ul>
                         </div>
                     </div>
                 </section>
 
                 <section id="resume" class="section">
-                    <div class="section-title-row">
-                        <h2>Experience</h2>
-                        <div class="resume-links">
-                            <a class="download-link" href="CameronJosephCV_SWEngineerII.pdf" target="_blank" rel="noopener">view pdf</a>
-                            <a class="download-link" href="CameronJosephCV_SWEngineerII.pdf" download>download pdf</a>
-                        </div>
-                    </div>
-                    
+                    <h2>Experience</h2>
+
                     <div class="resume-content">
                         <div class="job-entry">
                             <div class="job-header">
@@ -162,10 +162,10 @@
                             <p class="job-role">Application Developer II</p>
                             <p class="job-location">Remote</p>
                             <ul class="job-duties">
-                                <li>Built end-to-end applications supporting court operations, including backend services, data models, and user-facing interfaces using C#, .NET/ASP.NET, and Entity Framework.</li>
+                                <li>Built end-to-end applications — backend services, data models, and user-facing interfaces in C#, ASP.NET Core, and Entity Framework Core — supporting court operations for San Bernardino County, <strong>the largest county in the contiguous U.S. (~2.2M residents)</strong>, spanning multiple courthouses and county agencies.</li>
                                 <li>Designed scalable SQL Server databases using T-SQL, indexing, and query optimization to support efficient retrieval and processing of large datasets.</li>
-                                <li>Built CI/CD pipelines with GitHub Actions to automate test coverage, regression testing, and deployments across development, staging, and production environments.</li>
-                                <li>Stabilized a critical budget request system by implementing improved validation, structured logging, and monitoring, reducing error reports from <strong>~500 per week to under 20</strong> and improving incident response.</li>
+                                <li>Leveraged GitHub Copilot's coding agent to automate code reviews, generate Python scripts powering CI checks (through GitHub Actions), and accelerate feature development.</li>
+                                <li>Stabilized a critical budget request system by implementing improved validation, structured logging, and monitoring, reducing error reports from <strong>~500 per week to under 20</strong> and improving incident response times.</li>
                             </ul>
                         </div>
 
