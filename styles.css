@@ -154,8 +154,10 @@ body {
 
 .job-header {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     align-items: baseline;
+    gap: 0.15rem 1rem;
     margin-bottom: 0.5rem;
 }
 
@@ -170,6 +172,7 @@ body {
     font-size: 0.9rem;
     color: #777;
     font-style: italic;
+    white-space: nowrap;
 }
 
 .job-role {
@@ -239,8 +242,10 @@ body {
 
 .additional-job-header {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     align-items: baseline;
+    gap: 0.15rem 1rem;
     margin-bottom: 0.5rem;
 }
 

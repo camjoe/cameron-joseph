@@ -140,7 +140,7 @@
                         <div class="job-entry">
                             <div class="job-header">
                                 <h4>Superior Court of California, San Bernardino County</h4>
-                                <span class="job-date">Sep 2024 - Present · <strong class="job-duration" data-start="2024-09">1 yr 11 m</strong></span>
+                                <span class="job-date">Sep 2024 - Present</span>
                             </div>
                             <p class="job-role">Application Developer II</p>
                             <p class="job-location">Remote</p>
@@ -155,7 +155,7 @@
                         <div class="job-entry">
                             <div class="job-header">
                                 <h4>Vyant Bio (aka Stemonix)</h4>
-                                <span class="job-date">Dec 2020 - Dec 2023 · <strong>3 yrs</strong></span>
+                                <span class="job-date">Dec 2020 - Dec 2023</span>
                             </div>
                             <p class="job-role">Software Engineer (Backend-Focused)</p>
                             <ul class="job-duties">
@@ -172,7 +172,7 @@
                         <div class="additional-job">
                             <div class="additional-job-header">
                                 <h4>Housecall Pro</h4>
-                                <span class="job-date">Feb 2019 - Nov 2019 · <strong>10 m</strong></span>
+                                <span class="job-date">Feb 2019 - Nov 2019</span>
                             </div>
                             <p class="additional-job-role">Software Engineer (Full Stack)</p>
                             <ul class="job-duties">
@@ -184,7 +184,7 @@
                         <div class="additional-job">
                             <div class="additional-job-header">
                                 <h4>Axure Software Solutions</h4>
-                                <span class="job-date">Jun 2017 - Jan 2019 · <strong>1 yr 7 m</strong></span>
+                                <span class="job-date">Jun 2017 - Jan 2019</span>
                             </div>
                             <p class="additional-job-role">Software Engineer (Full Stack)</p>
                             <ul class="job-duties">
@@ -196,7 +196,7 @@
                         <div class="additional-job">
                             <div class="additional-job-header">
                                 <h4>Nanome Inc.</h4>
-                                <span class="job-date">Jan 2017 - Jun 2017 · <strong>6 m</strong></span>
+                                <span class="job-date">Jan 2017 - Jun 2017</span>
                             </div>
                             <p class="additional-job-role">Junior Software Engineer</p>
                             <ul class="job-duties">
@@ -207,7 +207,7 @@
                         <div class="additional-job">
                             <div class="additional-job-header">
                                 <h4>Amazon Lab126</h4>
-                                <span class="job-date">Jun 2016 - Sep 2016 · <strong>3 m</strong></span>
+                                <span class="job-date">Jun 2016 - Sep 2016</span>
                             </div>
                             <p class="additional-job-role">Software Engineer Internship</p>
                             <ul class="job-duties">
@@ -220,21 +220,5 @@
         </div>
     </main>
 
-    <script>
-        // Auto-calculate the duration for "Present" roles from their data-start (YYYY-MM).
-        document.querySelectorAll('.job-duration[data-start]').forEach(function (el) {
-            var parts = el.dataset.start.split('-');
-            var start = new Date(parseInt(parts[0], 10), parseInt(parts[1], 10) - 1, 1);
-            var now = new Date();
-            var months = (now.getFullYear() - start.getFullYear()) * 12 + (now.getMonth() - start.getMonth());
-            if (months < 0) months = 0;
-            var years = Math.floor(months / 12);
-            var rem = months % 12;
-            var out = [];
-            if (years > 0) out.push(years + ' yr' + (years > 1 ? 's' : ''));
-            if (rem > 0) out.push(rem + ' m');
-            el.textContent = out.join(' ') || '0 m';
-        });
-    </script>
 </body>
 </html>
