@@ -13,9 +13,9 @@
             <ul class="nav-links">
                 <li><a href="#home">Home</a></li>
                 <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
                 <li><a href="#resume">Resume</a></li>
                 <li><a href="#skills">Skills</a></li>
-                <li><a href="#projects">Projects</a></li>
             </ul>
         </div>
     </nav>
@@ -97,11 +97,6 @@
                     </div>
                 </section>
 
-                <section id="projects" class="section">
-                    <h2>Projects</h2>
-                    <p>Your projects will go here.</p>
-                </section>
-
                 <section id="references" class="section">
                     <h2>References</h2>
                     <p>Available upon request</p>
@@ -109,6 +104,29 @@
             </div>
 
             <div class="right-column" style="flex:1.4;">
+                <section id="projects" class="section">
+                    <h2>Personal Project</h2>
+
+                    <div class="resume-content">
+                        <div class="job-entry">
+                            <div class="job-header">
+                                <h4>Financial Trading App</h4>
+                                <span class="job-date">March 2026 - Present</span>
+                            </div>
+                            <p class="job-role"><a href="https://github.com/camjoe/trading_strategies" target="_blank" rel="noopener">github.com/camjoe/trading_strategies</a></p>
+                            <ul class="job-duties">
+                                <li>Developed a Python algorithmic-trading platform with automated trading through online broker paper accounts.</li>
+                                <li>Designed and enforced a layered architecture (interfaces → services → repositories/domain → database).</li>
+                                <li>Architected a broker-adapter integration layer with live-trading risk controls.</li>
+                                <li>Created a database migration lifecycle with Alembic, including schema versioning and schema rollback.</li>
+                                <li>Designed a unit-of-work transaction layer to handle atomic multi-write database operations.</li>
+                                <li>Built a job-runner and scheduler that utilizes a common framework to handle on average <strong>5-10 jobs</strong> running at any time.</li>
+                                <li>Built AI-assisted review workflows and custom Python CI checks (architecture and conventions enforcement, test coverage, etc.) that gate every pull request through GitHub Actions.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </section>
+
                 <section id="resume" class="section">
                     <div class="section-title-row">
                         <h2>Experience</h2>
