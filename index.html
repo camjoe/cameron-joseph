@@ -140,11 +140,10 @@
                             <ul class="job-duties">
                                 <li>Developed a Python algorithmic-trading platform with automated trading through online broker paper accounts.</li>
                                 <li>Designed and enforced a layered architecture (interfaces → services → repositories/domain → database).</li>
-                                <li>Architected a broker-adapter integration layer with live-trading risk controls.</li>
-                                <li>Created a database migration lifecycle with Alembic, including schema versioning and schema rollback.</li>
-                                <li>Designed a unit-of-work transaction layer to handle atomic multi-write database operations.</li>
-                                <li>Built a job-runner and scheduler that utilizes a common framework to handle on average <strong>5-10 jobs</strong> running at any time.</li>
-                                <li>Used Claude's coding agent to build AI-assisted review workflows and custom Python CI checks (architecture and conventions enforcement, test coverage, etc.) that gate every pull request through GitHub Actions.</li>
+                                <li>Integrated a broker execution API (two IBKR transports behind one interface) and multiple market-data and alternative-data feeds (news/Google Trends) behind pluggable, factory-selected adapters.</li>
+                                <li>Created an Alembic migration lifecycle (schema versioning, reversible up/down migrations) and a unit-of-work layer that wraps multi-write operations in atomic commits.</li>
+                                <li>Directed Claude's coding agent to generate much of the codebase, reviewing every change and gating each pull request with automated GitHub Actions checks (architecture-convention enforcement, docs-drift detection, test coverage).</li>
+                                <li>Made live order submission crash-safe: each order is persisted with a client-order-id before it's sent, so a crash or timeout can't double-place it, and a reconciliation pass recovers any order whose broker response was lost.</li>
                             </ul>
                         </div>
                     </div>
@@ -162,8 +161,8 @@
                             <p class="job-role">Application Developer II</p>
                             <p class="job-location">Remote</p>
                             <ul class="job-duties">
-                                <li>Built end-to-end applications — backend services, data models, and user-facing interfaces in C#, ASP.NET Core, and Entity Framework Core — supporting court operations for San Bernardino County, <strong>the largest county in the contiguous U.S. (~2.2M residents)</strong>, spanning multiple courthouses and county agencies.</li>
-                                <li>Engineered the application stack in C#, ASP.NET Core, Entity Framework Core, and TypeScript, backed by scalable SQL Server databases tuned with T-SQL, indexing, and query optimization.</li>
+                                <li>Built end-to-end applications supporting court operations for San Bernardino County, <strong>the largest county in the contiguous U.S. (~2.2M residents)</strong>, spanning multiple courthouses and county agencies.</li>
+                                <li>Engineered the application stack in C#, ASP.NET Core, Entity Framework Core, and TypeScript, backed by SQL Server databases tuned with T-SQL and indexing.</li>
                                 <li>Leveraged GitHub Copilot's coding agent to automate code reviews, generate Python scripts powering CI checks (through GitHub Actions), and accelerate feature development.</li>
                                 <li>Stabilized a critical budget request system by implementing improved validation, structured logging, and monitoring, reducing error reports from <strong>~500 per week to under 20</strong> and improving incident response times.</li>
                             </ul>
