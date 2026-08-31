@@ -133,14 +133,13 @@
                     <div class="resume-content">
                         <div class="job-entry">
                             <div class="job-header">
-                                <h4>Financial Trading App</h4>
+                                <h4>Python Algorithmic-Trading Platform</h4>
                                 <span class="job-date">March 2026 - Present</span>
                             </div>
                             <p class="job-role"><a href="https://github.com/camjoe/trading_strategies" target="_blank" rel="noopener">github.com/camjoe/trading_strategies</a></p>
                             <ul class="job-duties">
-                                <li>Developed a Python algorithmic-trading platform with automated trading through online broker paper accounts.</li>
-                                <li>Designed and enforced a layered architecture (interfaces → services → repositories/domain → database).</li>
                                 <li>Integrated a broker execution API (two IBKR transports behind one interface) and multiple market-data and alternative-data feeds (news/Google Trends) behind pluggable, factory-selected adapters.</li>
+                                <li>Designed and enforced a layered architecture (interfaces → services → repositories/domain → database).</li>
                                 <li>Created an Alembic migration lifecycle (schema versioning, reversible up/down migrations) and a unit-of-work layer that wraps multi-write operations in atomic commits.</li>
                                 <li>Directed Claude's coding agent to generate much of the codebase, reviewing every change and gating each pull request with automated GitHub Actions checks (architecture-convention enforcement, docs-drift detection, test coverage).</li>
                                 <li>Made live order submission crash-safe: each order is persisted with a client-order-id before it's sent, so a crash or timeout can't double-place it, and a reconciliation pass recovers any order whose broker response was lost.</li>
@@ -161,24 +160,23 @@
                             <p class="job-role">Application Developer II</p>
                             <p class="job-location">Remote</p>
                             <ul class="job-duties">
-                                <li>Built end-to-end applications supporting court operations for San Bernardino County, <strong>the largest county in the contiguous U.S. (~2.2M residents)</strong>, spanning multiple courthouses and county agencies.</li>
+                                <li>Built end-to-end applications supporting court operations for San Bernardino County, the largest county in the contiguous U.S. (~2.2M residents).</li>
                                 <li>Engineered the application stack in C#, ASP.NET Core, Entity Framework Core, and TypeScript, backed by SQL Server databases tuned with T-SQL and indexing.</li>
                                 <li>Leveraged GitHub Copilot's coding agent to automate code reviews, generate Python scripts powering CI checks (through GitHub Actions), and accelerate feature development.</li>
-                                <li>Stabilized a critical budget request system by implementing improved validation, structured logging, and monitoring, reducing error reports from <strong>~500 per week to under 20</strong> and improving incident response times.</li>
+                                <li>Stabilized a critical budget request system by implementing improved validation and logging/monitoring, reducing error reports from ~500 per week to under 20 and improving incident response times.</li>
                             </ul>
                         </div>
 
                         <div class="job-entry">
                             <div class="job-header">
                                 <h4>Vyant Bio (aka Stemonix) <span class="company-tag">· Biotech / drug discovery</span></h4>
-                                <span class="job-date">Dec 2020 - Dec 2023</span>
+                                <span class="job-date">Dec 2020 - Jan 2023</span>
                             </div>
                             <p class="job-role">Software Engineer (Backend-Focused)</p>
                             <ul class="job-duties">
-                                <li>Introduced Python to the team and ported proprietary biological image and Excel analysis code from MATLAB.</li>
-                                <li>Built an S3-triggered Lambda pipeline that processed incoming image and Excel data, wrote it to PostgreSQL, then loaded it into the Databricks lakehouse.</li>
-                                <li>Packaged the ported code as a Python wheel of callable methods in Databricks notebooks, so data scientists and biologists could work in one environment.</li>
-                                <li>Delivered the migration in stages against set deadlines to prove value at each step.</li>
+                                <li>Introduced Python to the team, porting proprietary biological image and Excel analysis code from MATLAB.</li>
+                                <li>Built an S3-triggered Lambda pipeline that processed incoming image and Excel data, wrote it to PostgreSQL, then loaded it into the Databricks lakehouse — cutting data-to-analysis turnaround from 1–2 weeks to same-day.</li>
+                                <li>Partnered with biologists/data scientists to package the ported code as a Python wheel of callable Databricks-notebook methods, unifying their analysis in one environment.</li>
                                 <li>Collaborated with scientists to translate research requirements into backend architecture and data ingestion systems.</li>
                             </ul>
                         </div>
@@ -192,7 +190,7 @@
                             </div>
                             <p class="additional-job-role">Software Engineer (Full Stack)</p>
                             <ul class="job-duties">
-                                <li>Developed a self-service website creation platform that enabled <strong>~1,500 websites</strong> for home-service professionals, generating nearly <strong>$100K in revenue</strong>.</li>
+                                <li>Developed a self-service website creation platform that enabled ~1,500 websites for home-service professionals, generating nearly $100K in revenue.</li>
                                 <li>Built full-stack features with Ruby on Rails APIs (MVC) and React/Redux front-ends, enabling professionals to edit and manage their web pages.</li>
                             </ul>
                         </div>
